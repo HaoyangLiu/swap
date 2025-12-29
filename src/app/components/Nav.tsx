@@ -2,6 +2,8 @@ import svgPaths from "../../imports/svg-t3q7qhfhj2";
 
 import logo from '@/assets/logo.png'
 
+const imgNav = '/images/nav-logo.svg';
+
 const Logo = () => (
     <div className="flex items-center gap-2">
       <span className="text-2xl">🔄</span>

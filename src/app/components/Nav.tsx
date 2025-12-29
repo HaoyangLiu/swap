@@ -114,10 +114,10 @@ export default function Nav({ currentPage, onNavigate }: NavProps) {
             <div className="hidden sm:block">
               <Group6 />
             </div>
-            
+
             {/* Navigation Links */}
             <div className="content-stretch flex items-center relative shrink-0 gap-0 sm:gap-0">
-              <button 
+              <button
                 onClick={() => onNavigate('trade')}
                 className="content-stretch flex items-center justify-center px-[8px] md:px-[16px] py-0 relative shrink-0 hover:opacity-80 transition-opacity"
               >
@@ -128,7 +128,7 @@ export default function Nav({ currentPage, onNavigate }: NavProps) {
                 </div>
               </button>
 
-              <button 
+              <button
                 onClick={() => onNavigate('explore')}
                 className="content-stretch flex flex-col items-start px-[8px] md:px-[16px] py-[6px] relative shrink-0 hover:opacity-80 transition-opacity"
               >
@@ -139,7 +139,7 @@ export default function Nav({ currentPage, onNavigate }: NavProps) {
                 </div>
               </button>
 
-              <button 
+              <button
                 onClick={() => onNavigate('pool')}
                 className="content-stretch flex flex-col items-center justify-center px-[8px] md:px-[16px] py-0 relative shrink-0 hover:opacity-80 transition-opacity"
               >
@@ -150,7 +150,7 @@ export default function Nav({ currentPage, onNavigate }: NavProps) {
                 </div>
               </button>
 
-              <button 
+              <button
                 onClick={() => onNavigate('portfolio')}
                 className="content-stretch flex flex-col items-center justify-center px-[8px] md:px-[16px] py-0 relative shrink-0 hover:opacity-80 transition-opacity"
               >
@@ -161,7 +161,7 @@ export default function Nav({ currentPage, onNavigate }: NavProps) {
                 </div>
               </button>
 
-              <button 
+              <button
                 onClick={() => onNavigate('mvp-swap')}
                 className="content-stretch flex flex-col items-center justify-center px-[8px] md:px-[16px] py-0 relative shrink-0 hover:opacity-80 transition-opacity"
               >

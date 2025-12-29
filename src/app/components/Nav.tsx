@@ -1,5 +1,14 @@
 import svgPaths from "../../imports/svg-t3q7qhfhj2";
-import imgNav from "figma:asset/c24ba1b4efbae3f4996529ac70d19155b25c6125.png";
+
+import logo from '@/assets/logo.png'
+
+const Logo = () => (
+    <div className="flex items-center gap-2">
+      <span className="text-2xl">🔄</span>
+      <span className="font-bold">Swap</span>
+    </div>
+)
+
 
 type PageType = 'trade' | 'explore' | 'pool' | 'portfolio' | 'new-position' | 'mvp-swap';
 
